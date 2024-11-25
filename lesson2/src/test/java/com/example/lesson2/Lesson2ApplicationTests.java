@@ -1,10 +1,10 @@
-package com.example.hw2;
+package com.example.lesson2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Hw2ApplicationTests {
+class Lesson2ApplicationTests {
 
 	@Test
 	void contextLoads() {
