@@ -4,6 +4,7 @@ import com.example.hw8.model.Note;
 import com.example.hw8.services.NoteService;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,6 +16,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RequestMapping("/note")
 public class NoteController {
+
     private final NoteService noteService;
 
 

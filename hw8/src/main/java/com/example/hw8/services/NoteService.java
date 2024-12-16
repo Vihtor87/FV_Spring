@@ -4,6 +4,7 @@ import com.example.hw8.aspects.TrackUserAction;
 import com.example.hw8.model.Note;
 import com.example.hw8.repository.NoteRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class NoteService {
 
+    @Autowired
     private final NoteRepository noteRepository;
 
     @TrackUserAction
