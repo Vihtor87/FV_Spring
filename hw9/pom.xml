@@ -11,6 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>hw9</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>hw9</name>
     <description>Demo project for Spring Boot</description>
     <url/>
@@ -30,6 +31,13 @@
         <java.version>17</java.version>
         <spring-cloud.version>2023.0.4</spring-cloud.version>
     </properties>
+
+    <modules>
+        <module>eureka-server</module>
+        <module>eureka-server</module>
+        <module>micro-1</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
