@@ -1,4 +1,4 @@
-package com.example.hw6.domian;
+package com.example.hw10.domian;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -8,7 +8,6 @@ import java.time.LocalDateTime;
 
 @Data
 @Entity
-@NoArgsConstructor
 public class Note {
 
     @Id
@@ -23,4 +22,7 @@ public class Note {
 
     @Column(name = "createdDate")
     private LocalDateTime createdDate;
+
+    @Column(name = "status", nullable = false)
+    private NoteStatus status;
 }

@@ -1,8 +1,8 @@
-package com.example.hw6.controller;
+package com.example.hw10.controller;
 
-import com.example.hw6.domian.Note;
-import com.example.hw6.services.NoteService;
-import lombok.RequiredArgsConstructor;
+import com.example.hw10.domian.Note;
+import com.example.hw10.services.NoteService;
+import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
-@RequiredArgsConstructor
+@AllArgsConstructor
 @RequestMapping("/note")
 public class NoteController {
 
